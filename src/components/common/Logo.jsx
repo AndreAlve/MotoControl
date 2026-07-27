@@ -12,7 +12,7 @@ function Logo() {
             </Typography>
 
             <Typography color="text.secondary">
-                Controle de Revendas
+                Controle Inteligente de Revendas
             </Typography>
         </Box>
     );
