@@ -1,0 +1,65 @@
+.nova-moto-container {
+    padding-top: 24px !important;
+    padding-bottom: 32px !important;
+}
+
+.nova-moto-paper {
+    padding: 24px !important;
+    border-radius: 16px !important;
+}
+
+.nova-moto-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 12px;
+}
+
+.nova-moto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.btn-cancelar,
+.btn-salvar {
+    text-transform: none !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .form-actions {
+        flex-direction: column-reverse;
+    }
+
+    .btn-cancelar,
+    .btn-salvar {
+        width: 100%;
+    }
+}

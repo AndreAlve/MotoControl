@@ -1,43 +1,62 @@
-body {
-    margin: 0;
-    background: #f5f5f5;
-    font-family: Arial, sans-serif;
-}
-
+/* Container Principal - Centralização Vertical e Horizontal */
 .login-container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
 }
 
+/* Card do Formulário */
 .login-paper {
+    padding: 32px 24px !important;
     width: 100%;
-    border-radius: 16px;
+    border-radius: 16px !important;
 }
 
-.login-content {
-    padding: 32px;
+/* Formulário Interno */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.login-title {
-    text-align: center;
+/* Campos de Texto */
+.login-input {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
 }
 
-.login-subtitle {
-    text-align: center;
-    margin-bottom: 24px;
+/* Checkbox Lembrar de Mim */
+.login-remember {
+    margin-top: 4px !important;
+    margin-bottom: 12px !important;
+    color: #555555;
 }
 
-.login-links{
-    display:flex;
-    justify-content:flex;
-    margin-top:12px;
+/* Botão Entrar */
+.login-btn-submit {
+    margin-top: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+    font-size: 1rem !important;
 }
 
-.register-box{
-    margin-top:24px;
-    display:flex;
-    justify-content:center;
-    gap:6px;
+/* Divisor "ou" */
+.login-divider {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+    color: #888888;
+    font-size: 0.875rem;
+}
+
+/* Ajustes para Smartphones Pequenos */
+@media (max-width: 480px) {
+    .login-paper {
+        padding: 24px 16px !important;
+    }
 }
