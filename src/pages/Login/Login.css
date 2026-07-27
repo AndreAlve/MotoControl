@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+
 /* Container Principal - Centralização Vertical e Horizontal */
 .login-container {
     height: 100vh;
