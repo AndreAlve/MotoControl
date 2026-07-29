@@ -1,0 +1,14 @@
+.header {
+    background-color: #1f2937 !important;
+}
+
+.header-title {
+    flex: 1;
+    margin-left: 10px !important;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
